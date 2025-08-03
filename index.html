@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Luis Alberto Martinez </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <img src="MI-FOTO.png" alt="Fotografía del Diseñador" class="profile-photo">
+               <h1>Luis Alberto Martinez</h1>
+            <p class="tagline">"Un buen diseño no es solo lo que se ve, sino lo que enseña".</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Acerca de Mí</h2>
+            <p>Soy un docente apasionado por la tecnología, especializado en el área de informática. 
+                Imparto clases tanto en educación media como a nivel universitario. Mi entusiasmo se
+                 extiende a diversos campos como las telecomunicaciones y el diseño gráfico, siendo este último mi mayor pasión. 
+                Busco constantemente fusionar la pedagogía con mis conocimientos técnicos para inspirar a mis estudiantes.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portafolio</h2>
+            <div class="gallery">
+                <div class="portfolio-item">
+                    <img src="Banner final 1.1.JPG" alt="Descripción del Proyecto 1">
+                    <div class="overlay">
+                        <h3>Proyecto 1</h3>
+                        <p>Breve descripción del proyecto.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="bannertimoshenko.jpg" alt="Descripción del Proyecto 2">
+                    <div class="overlay">
+                        <h3>Proyecto 2</h3>
+                        <p>Breve descripción del proyecto.</p>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section id="contact">
+            <h2>Hablemos</h2>
+            <p>Si tienes un proyecto en mente o simplemente quieres saludar, envíame un mensaje.</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+            <div id="formStatus"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Luis Martinez. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
